@@ -15,4 +15,4 @@ const cookieUtil = {
   }
 }
 
-module.exports = cookieUtilt;
+module.exports = cookieUtil;
