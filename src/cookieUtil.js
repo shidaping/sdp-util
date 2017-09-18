@@ -1,6 +1,6 @@
 const cookieUtil = {
   getCookie: (name) => {
-    if(typeOf window !== 'undefined' ) {
+    if(typeof window !== 'undefined' ) {
       let splitArray = document.cookie.split(`${name}=`);
       if(splitArray.length === 2) {
         return splitArray[1];
